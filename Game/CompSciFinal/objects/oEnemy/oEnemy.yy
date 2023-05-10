@@ -1,11 +1,11 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oPlayer",
+  "name": "oEnemy",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"oBullet","path":"objects/oBullet/oBullet.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -30,12 +30,9 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sPlayerIdle_strip4",
-    "path": "sprites/sPlayerIdle_strip4/sPlayerIdle_strip4.yy",
+    "name": "sEnemy_strip7",
+    "path": "sprites/sEnemy_strip7/sEnemy_strip7.yy",
   },
-  "spriteMaskId": {
-    "name": "sPlayerIdle_strip4",
-    "path": "sprites/sPlayerIdle_strip4/sPlayerIdle_strip4.yy",
-  },
+  "spriteMaskId": null,
   "visible": true,
 }
