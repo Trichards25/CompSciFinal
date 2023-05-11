@@ -31,3 +31,4 @@ if(cd <= 0 && mouse_check_button(mb_left)){
 		speed = 8;
 	}
 }
+

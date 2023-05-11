@@ -8,5 +8,5 @@ for(var i = 0; i < enemies; i++){
 }
 
 if (allDead){
-	game_restart();
+	//game_restart();
 }

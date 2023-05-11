@@ -1,2 +1,3 @@
 dead = false;
-hp = random_range(5,10);
+maxHp = random_range(50,100);
+currentHp = maxHp

@@ -3,4 +3,4 @@ xspd = 0;
 ySpd = 0;
 cdValue = 10;
 cd = 0;
-damage = 1;
+damage = 10;
